@@ -17,7 +17,6 @@ import black from './posters/black.jpg';
 import moment from './posters/moment.jpg';
 import astralwoods from './posters/astralwoods.jpg';
 import tdehead3 from './posters/treedancecf6.png';
-import { batch } from "react-redux";
 import Jnav from "./jnav";
 export default function Landing(){
 //variables
