@@ -1,6 +1,6 @@
 import React from "react";
-import { Container,Row,Col,Image,Card, CardGroup,Collapse,Button,Carousel} from "react-bootstrap";
-import { useState, useRef } from "react";
+import { Container,Row,Col,Image,Card,Collapse,Button,Carousel} from "react-bootstrap";
+import  useState from "react";
 import tde from './posters/tde.png'
 import night from './posters/night.jpg';
 import astral from './posters/astral.jpg';
