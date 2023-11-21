@@ -1,10 +1,6 @@
 import React from "react";
 import { Container,Row,Col,Image,Card, CardGroup,Collapse,Button,Carousel} from "react-bootstrap";
 import { useState, useRef } from "react";
-import mars from './posters/mars.png';
-import recipe from './posters/recipe.png';
-import countries from './countries.png';
-import { Link } from "react-router-dom";
 import tde from './posters/tde.png'
 import night from './posters/night.jpg';
 import astral from './posters/astral.jpg';
@@ -15,7 +11,6 @@ import pick from './posters/pick.jpg';
 import waste from './posters/waste.jpg';
 import black from './posters/black.jpg';
 import moment from './posters/moment.jpg';
-import astralwoods from './posters/astralwoods.jpg';
 import tdehead3 from './posters/treedancecf6.png';
 import Jnav from "./jnav";
 export default function Landing(){
@@ -197,8 +192,3 @@ declare global {
       }
     }
   }
-
-function ProjectLink(url:any){
-    window.location.href = url
-    return null
-}
