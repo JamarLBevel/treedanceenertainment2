@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import { BrowserRouter,Route, Routes,Outlet} from 'react-router-dom';
+import { BrowserRouter,Route, Routes} from 'react-router-dom';
 import Home from './landing';
 import Landing from './home';
 import SignIn from './signIn';
 import SignUp from './signUp';
-import { Navbar,Container,Nav } from 'react-bootstrap';
 
 function App() {
   return(

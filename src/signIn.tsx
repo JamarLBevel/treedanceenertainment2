@@ -8,21 +8,19 @@ export default function SignIn(){
     const auth = getAuth();
     const [email,setEmail] = useState("");
     const [password,setPassword] = useState("");
-    const [isSign,setIsSign] = useState(false);
     const [error,setError] = useState("")
     const navigate = useNavigate();
     function signIn(){
         signInWithEmailAndPassword(auth, email, password)
   .then((userCredential) => {
     // Signed in 
-    const user = userCredential.user;
     //window.location.replace('http://localhost:3000/movies');
     navigate('/landing');
     console.log("gogogogogo")
     // ...
   })
   .catch((error) => {
-    const errorCode = error.code;
+
     const errorMessage = error.message;
     setError(errorMessage);
     setShow(true)
